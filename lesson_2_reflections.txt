@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    When you run git init you, an empty repository is created. It contains no commit. Git init is run manually so only the files that you want to commit later are tracked.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    Staging area is the preparation area for files to be committed. The staging area helps to keep the files and commits separate and organized into several commits. Each commit  consists of changes that represent a logical change to the relevant files.
