@@ -10,3 +10,7 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 
     By adding the file to the staging area after a logical change. This way if there is another logical change made, you will see that the file has been modified when running git status command.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+    When creating a new feauture, experimenting, or when multiple people are working on separate features using the same code. For example if one programmer is creating an easy-mode and an another programmer is working on hard-mode for the same game at the same time.
