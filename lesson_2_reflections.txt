@@ -6,3 +6,7 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
     Staging area is the preparation area for files to be committed. The staging area helps to keep the files and commits separate and organized into several commits. Each commit  consists of changes that represent a logical change to the relevant files.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+    By adding the file to the staging area after a logical change. This way if there is another logical change made, you will see that the file has been modified when running git status command.
