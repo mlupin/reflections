@@ -13,8 +13,12 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-    When creating a new feauture, experimenting, or when multiple people are working on separate features using the same code. For example if one programmer is creating an easy-mode and an another programmer is working on hard-mode for the same game at the same time.
+    Branches help teams to organize their work into separate tasks - especially when creating a new feauture, experimenting, or when multiple people are working on separate features using the same code. For example if one programmer is creating an easy-mode and an another programmer is working on hard-mode for the same game at the same time. The main 'master' branch stays intact until the branches are ready to merge.
 
 How do the diagrams help you visualize the branch structure?
 
-    The diagrams helps me visualize where the new branches have been created, which features and bug fixes other teams are workings on, and at what point branches are merged with the master branch.
+    The diagrams helps me visualize where the new branches have been created, which features and bug fixes other teams are workings on, and at what point branches are merged with the master branch. The diagram also helps visualize which commits are reachable from each branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    Merging two branches together incorporates the changes made in both branches into a new commit. This way multiple teams can work on independent projects on separate branches and only merge the branches once the code is working. In the diagram, it is represented that the two branches come in together and the master branch is extended.
