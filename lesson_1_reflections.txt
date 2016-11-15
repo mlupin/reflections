@@ -14,10 +14,10 @@ commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
     Pros:
-    - You can commit when you know there are no bugs in the code.
-    - Commit only when there is a significant logical change.
+        - You can commit when you know there are no bugs in the code.
+        - Commit only when there is a significant logical change.
     Cons:
-    - You can forget to commit.
+        - You can forget to commit.
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
@@ -36,5 +36,5 @@ could break something?
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Using Git to commit my project and work on my first portfolio.
+    I want to use Git to commit my projects and work on my first portfolio. I also want to use Git to collaborate with others and contribute to public source projects.
 
